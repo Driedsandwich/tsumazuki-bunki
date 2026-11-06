@@ -1,0 +1,1404 @@
+{
+  "summary": {
+    "cases": 54,
+    "initialUnique": 48,
+    "retained": 54,
+    "finalCorrect": 54,
+    "unknown": 0,
+    "wrongUnique": 0,
+    "controls": 12,
+    "controlsCorrect": 12
+  },
+  "rows": [
+    {
+      "id": "move-sign",
+      "name": "移項しても符号がそのまま",
+      "n": 6,
+      "initialUnique": 6,
+      "retained": 6,
+      "finalCorrect": 6,
+      "unknown": 0,
+      "wrongUnique": 0
+    },
+    {
+      "id": "distribute-tail",
+      "name": "かっこの後ろに掛け忘れる",
+      "n": 6,
+      "initialUnique": 6,
+      "retained": 6,
+      "finalCorrect": 6,
+      "unknown": 0,
+      "wrongUnique": 0
+    },
+    {
+      "id": "minus-tail",
+      "name": "かっこの後ろでマイナスを落とす",
+      "n": 6,
+      "initialUnique": 0,
+      "retained": 6,
+      "finalCorrect": 6,
+      "unknown": 0,
+      "wrongUnique": 0
+    },
+    {
+      "id": "negative-product",
+      "name": "負 × 負を負にする",
+      "n": 6,
+      "initialUnique": 6,
+      "retained": 6,
+      "finalCorrect": 6,
+      "unknown": 0,
+      "wrongUnique": 0
+    },
+    {
+      "id": "divide-sign",
+      "name": "割る係数のマイナスを落とす",
+      "n": 6,
+      "initialUnique": 6,
+      "retained": 6,
+      "finalCorrect": 6,
+      "unknown": 0,
+      "wrongUnique": 0
+    },
+    {
+      "id": "subtract-coefficient",
+      "name": "係数で割らずに引く",
+      "n": 6,
+      "initialUnique": 6,
+      "retained": 6,
+      "finalCorrect": 6,
+      "unknown": 0,
+      "wrongUnique": 0
+    },
+    {
+      "id": "denominator-constant",
+      "name": "分母を払うとき定数を忘れる",
+      "n": 6,
+      "initialUnique": 6,
+      "retained": 6,
+      "finalCorrect": 6,
+      "unknown": 0,
+      "wrongUnique": 0
+    },
+    {
+      "id": "unlike-terms",
+      "name": "x の項と数だけの項をまとめる",
+      "n": 6,
+      "initialUnique": 6,
+      "retained": 6,
+      "finalCorrect": 6,
+      "unknown": 0,
+      "wrongUnique": 0
+    },
+    {
+      "id": "like-sign",
+      "name": "同類項の係数で符号を落とす",
+      "n": 6,
+      "initialUnique": 6,
+      "retained": 6,
+      "finalCorrect": 6,
+      "unknown": 0,
+      "wrongUnique": 0
+    }
+  ],
+  "cases": [
+    {
+      "id": "move-sign-1",
+      "ruleId": "move-sign",
+      "problem": "3x+2=14",
+      "lines": [
+        "(0+(3*x)) = (14+2)",
+        "x=16/3"
+      ],
+      "candidates": [
+        "move-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "move-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "move-sign-2",
+      "ruleId": "move-sign",
+      "problem": "4x+3=19",
+      "lines": [
+        "(0+(4*x)) = (19+3)",
+        "x=11/2"
+      ],
+      "candidates": [
+        "move-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "move-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "move-sign-3",
+      "ruleId": "move-sign",
+      "problem": "5x+4=24",
+      "lines": [
+        "(0+(5*x)) = (24+4)",
+        "x=28/5"
+      ],
+      "candidates": [
+        "move-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "move-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "move-sign-4",
+      "ruleId": "move-sign",
+      "problem": "6x+5=29",
+      "lines": [
+        "(0+(6*x)) = (29+5)",
+        "x=17/3"
+      ],
+      "candidates": [
+        "move-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "move-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "move-sign-5",
+      "ruleId": "move-sign",
+      "problem": "7x+6=34",
+      "lines": [
+        "(0+(7*x)) = (34+6)",
+        "x=40/7"
+      ],
+      "candidates": [
+        "move-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "move-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "move-sign-6",
+      "ruleId": "move-sign",
+      "problem": "8x+7=39",
+      "lines": [
+        "(0+(8*x)) = (39+7)",
+        "x=23/4"
+      ],
+      "candidates": [
+        "move-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "move-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "distribute-tail-1",
+      "ruleId": "distribute-tail",
+      "problem": "3(x+2)=12",
+      "lines": [
+        "((3*x)+2) = 12",
+        "x=10/3"
+      ],
+      "candidates": [
+        "distribute-tail"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "distribute-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "distribute-tail-2",
+      "ruleId": "distribute-tail",
+      "problem": "4(x+3)=20",
+      "lines": [
+        "((4*x)+3) = 20",
+        "x=17/4"
+      ],
+      "candidates": [
+        "distribute-tail"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "distribute-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "distribute-tail-3",
+      "ruleId": "distribute-tail",
+      "problem": "5(x+4)=30",
+      "lines": [
+        "((5*x)+4) = 30",
+        "x=26/5"
+      ],
+      "candidates": [
+        "distribute-tail"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "distribute-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "distribute-tail-4",
+      "ruleId": "distribute-tail",
+      "problem": "6(x+5)=42",
+      "lines": [
+        "((6*x)+5) = 42",
+        "x=37/6"
+      ],
+      "candidates": [
+        "distribute-tail"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "distribute-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "distribute-tail-5",
+      "ruleId": "distribute-tail",
+      "problem": "7(x+6)=56",
+      "lines": [
+        "((7*x)+6) = 56",
+        "x=50/7"
+      ],
+      "candidates": [
+        "distribute-tail"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "distribute-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "distribute-tail-6",
+      "ruleId": "distribute-tail",
+      "problem": "8(x+7)=72",
+      "lines": [
+        "((8*x)+7) = 72",
+        "x=65/8"
+      ],
+      "candidates": [
+        "distribute-tail"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "distribute-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "minus-tail-1",
+      "ruleId": "minus-tail",
+      "problem": "-(x+2)=5",
+      "lines": [
+        "((-1*x)+(1*2)) = 5",
+        "x=-3"
+      ],
+      "candidates": [
+        "distribute-tail",
+        "minus-tail"
+      ],
+      "initialUnique": false,
+      "retained": true,
+      "branch": [
+        {
+          "equation": "-2(x+(2))=-18",
+          "answer": "11",
+          "correct": "7",
+          "remaining": [
+            "minus-tail"
+          ]
+        }
+      ],
+      "final": [
+        "minus-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "minus-tail-2",
+      "ruleId": "minus-tail",
+      "problem": "-(x+3)=6",
+      "lines": [
+        "((-1*x)+(1*3)) = 6",
+        "x=-3"
+      ],
+      "candidates": [
+        "distribute-tail",
+        "minus-tail"
+      ],
+      "initialUnique": false,
+      "retained": true,
+      "branch": [
+        {
+          "equation": "-2(x+(2))=-18",
+          "answer": "11",
+          "correct": "7",
+          "remaining": [
+            "minus-tail"
+          ]
+        }
+      ],
+      "final": [
+        "minus-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "minus-tail-3",
+      "ruleId": "minus-tail",
+      "problem": "-(x+4)=7",
+      "lines": [
+        "((-1*x)+(1*4)) = 7",
+        "x=-3"
+      ],
+      "candidates": [
+        "distribute-tail",
+        "minus-tail"
+      ],
+      "initialUnique": false,
+      "retained": true,
+      "branch": [
+        {
+          "equation": "-2(x+(2))=-18",
+          "answer": "11",
+          "correct": "7",
+          "remaining": [
+            "minus-tail"
+          ]
+        }
+      ],
+      "final": [
+        "minus-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "minus-tail-4",
+      "ruleId": "minus-tail",
+      "problem": "-(x+5)=8",
+      "lines": [
+        "((-1*x)+(1*5)) = 8",
+        "x=-3"
+      ],
+      "candidates": [
+        "distribute-tail",
+        "minus-tail"
+      ],
+      "initialUnique": false,
+      "retained": true,
+      "branch": [
+        {
+          "equation": "-2(x+(2))=-18",
+          "answer": "11",
+          "correct": "7",
+          "remaining": [
+            "minus-tail"
+          ]
+        }
+      ],
+      "final": [
+        "minus-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "minus-tail-5",
+      "ruleId": "minus-tail",
+      "problem": "-(x+6)=9",
+      "lines": [
+        "((-1*x)+(1*6)) = 9",
+        "x=-3"
+      ],
+      "candidates": [
+        "distribute-tail",
+        "minus-tail"
+      ],
+      "initialUnique": false,
+      "retained": true,
+      "branch": [
+        {
+          "equation": "-2(x+(2))=-18",
+          "answer": "11",
+          "correct": "7",
+          "remaining": [
+            "minus-tail"
+          ]
+        }
+      ],
+      "final": [
+        "minus-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "minus-tail-6",
+      "ruleId": "minus-tail",
+      "problem": "-(x+7)=10",
+      "lines": [
+        "((-1*x)+(1*7)) = 10",
+        "x=-3"
+      ],
+      "candidates": [
+        "distribute-tail",
+        "minus-tail"
+      ],
+      "initialUnique": false,
+      "retained": true,
+      "branch": [
+        {
+          "equation": "-2(x+(2))=-18",
+          "answer": "11",
+          "correct": "7",
+          "remaining": [
+            "minus-tail"
+          ]
+        }
+      ],
+      "final": [
+        "minus-tail"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "negative-product-1",
+      "ruleId": "negative-product",
+      "problem": "(-2)*(-3)*x=18",
+      "lines": [
+        "(-6*x) = 18",
+        "x=-3"
+      ],
+      "candidates": [
+        "negative-product"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "negative-product"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "negative-product-2",
+      "ruleId": "negative-product",
+      "problem": "(-3)*(-4)*x=36",
+      "lines": [
+        "(-12*x) = 36",
+        "x=-3"
+      ],
+      "candidates": [
+        "negative-product"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "negative-product"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "negative-product-3",
+      "ruleId": "negative-product",
+      "problem": "(-4)*(-5)*x=60",
+      "lines": [
+        "(-20*x) = 60",
+        "x=-3"
+      ],
+      "candidates": [
+        "negative-product"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "negative-product"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "negative-product-4",
+      "ruleId": "negative-product",
+      "problem": "(-5)*(-6)*x=90",
+      "lines": [
+        "(-30*x) = 90",
+        "x=-3"
+      ],
+      "candidates": [
+        "negative-product"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "negative-product"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "negative-product-5",
+      "ruleId": "negative-product",
+      "problem": "(-6)*(-7)*x=126",
+      "lines": [
+        "(-42*x) = 126",
+        "x=-3"
+      ],
+      "candidates": [
+        "negative-product"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "negative-product"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "negative-product-6",
+      "ruleId": "negative-product",
+      "problem": "(-7)*(-8)*x=168",
+      "lines": [
+        "(-56*x) = 168",
+        "x=-3"
+      ],
+      "candidates": [
+        "negative-product"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "negative-product"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "divide-sign-1",
+      "ruleId": "divide-sign",
+      "problem": "-3x=12",
+      "lines": [
+        "x = 4",
+        "x=4"
+      ],
+      "candidates": [
+        "divide-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "divide-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "divide-sign-2",
+      "ruleId": "divide-sign",
+      "problem": "-4x=16",
+      "lines": [
+        "x = 4",
+        "x=4"
+      ],
+      "candidates": [
+        "divide-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "divide-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "divide-sign-3",
+      "ruleId": "divide-sign",
+      "problem": "-5x=20",
+      "lines": [
+        "x = 4",
+        "x=4"
+      ],
+      "candidates": [
+        "divide-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "divide-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "divide-sign-4",
+      "ruleId": "divide-sign",
+      "problem": "-6x=24",
+      "lines": [
+        "x = 4",
+        "x=4"
+      ],
+      "candidates": [
+        "divide-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "divide-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "divide-sign-5",
+      "ruleId": "divide-sign",
+      "problem": "-7x=28",
+      "lines": [
+        "x = 4",
+        "x=4"
+      ],
+      "candidates": [
+        "divide-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "divide-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "divide-sign-6",
+      "ruleId": "divide-sign",
+      "problem": "-8x=32",
+      "lines": [
+        "x = 4",
+        "x=4"
+      ],
+      "candidates": [
+        "divide-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "divide-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "subtract-coefficient-1",
+      "ruleId": "subtract-coefficient",
+      "problem": "3x=15",
+      "lines": [
+        "x = 12",
+        "x=12"
+      ],
+      "candidates": [
+        "subtract-coefficient"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "subtract-coefficient"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "subtract-coefficient-2",
+      "ruleId": "subtract-coefficient",
+      "problem": "4x=20",
+      "lines": [
+        "x = 16",
+        "x=16"
+      ],
+      "candidates": [
+        "subtract-coefficient"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "subtract-coefficient"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "subtract-coefficient-3",
+      "ruleId": "subtract-coefficient",
+      "problem": "5x=25",
+      "lines": [
+        "x = 20",
+        "x=20"
+      ],
+      "candidates": [
+        "subtract-coefficient"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "subtract-coefficient"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "subtract-coefficient-4",
+      "ruleId": "subtract-coefficient",
+      "problem": "6x=30",
+      "lines": [
+        "x = 24",
+        "x=24"
+      ],
+      "candidates": [
+        "subtract-coefficient"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "subtract-coefficient"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "subtract-coefficient-5",
+      "ruleId": "subtract-coefficient",
+      "problem": "7x=35",
+      "lines": [
+        "x = 28",
+        "x=28"
+      ],
+      "candidates": [
+        "subtract-coefficient"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "subtract-coefficient"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "subtract-coefficient-6",
+      "ruleId": "subtract-coefficient",
+      "problem": "8x=40",
+      "lines": [
+        "x = 32",
+        "x=32"
+      ],
+      "candidates": [
+        "subtract-coefficient"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "subtract-coefficient"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "denominator-constant-1",
+      "ruleId": "denominator-constant",
+      "problem": "x/3+2=6",
+      "lines": [
+        "((1*x)+2) = 18",
+        "x=16"
+      ],
+      "candidates": [
+        "denominator-constant"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "denominator-constant"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "denominator-constant-2",
+      "ruleId": "denominator-constant",
+      "problem": "x/4+3=7",
+      "lines": [
+        "((1*x)+3) = 28",
+        "x=25"
+      ],
+      "candidates": [
+        "denominator-constant"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "denominator-constant"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "denominator-constant-3",
+      "ruleId": "denominator-constant",
+      "problem": "x/5+4=8",
+      "lines": [
+        "((1*x)+4) = 40",
+        "x=36"
+      ],
+      "candidates": [
+        "denominator-constant"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "denominator-constant"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "denominator-constant-4",
+      "ruleId": "denominator-constant",
+      "problem": "x/6+5=9",
+      "lines": [
+        "((1*x)+5) = 54",
+        "x=49"
+      ],
+      "candidates": [
+        "denominator-constant"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "denominator-constant"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "denominator-constant-5",
+      "ruleId": "denominator-constant",
+      "problem": "x/7+6=10",
+      "lines": [
+        "((1*x)+6) = 70",
+        "x=64"
+      ],
+      "candidates": [
+        "denominator-constant"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "denominator-constant"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "denominator-constant-6",
+      "ruleId": "denominator-constant",
+      "problem": "x/8+7=11",
+      "lines": [
+        "((1*x)+7) = 88",
+        "x=81"
+      ],
+      "candidates": [
+        "denominator-constant"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "denominator-constant"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "unlike-terms-1",
+      "ruleId": "unlike-terms",
+      "problem": "3x+2=20",
+      "lines": [
+        "(5*x) = 20",
+        "x=4"
+      ],
+      "candidates": [
+        "unlike-terms"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "unlike-terms"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "unlike-terms-2",
+      "ruleId": "unlike-terms",
+      "problem": "4x+3=28",
+      "lines": [
+        "(7*x) = 28",
+        "x=4"
+      ],
+      "candidates": [
+        "unlike-terms"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "unlike-terms"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "unlike-terms-3",
+      "ruleId": "unlike-terms",
+      "problem": "5x+4=36",
+      "lines": [
+        "(9*x) = 36",
+        "x=4"
+      ],
+      "candidates": [
+        "unlike-terms"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "unlike-terms"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "unlike-terms-4",
+      "ruleId": "unlike-terms",
+      "problem": "6x+5=44",
+      "lines": [
+        "(11*x) = 44",
+        "x=4"
+      ],
+      "candidates": [
+        "unlike-terms"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "unlike-terms"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "unlike-terms-5",
+      "ruleId": "unlike-terms",
+      "problem": "7x+6=52",
+      "lines": [
+        "(13*x) = 52",
+        "x=4"
+      ],
+      "candidates": [
+        "unlike-terms"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "unlike-terms"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "unlike-terms-6",
+      "ruleId": "unlike-terms",
+      "problem": "8x+7=60",
+      "lines": [
+        "(15*x) = 60",
+        "x=4"
+      ],
+      "candidates": [
+        "unlike-terms"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "unlike-terms"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "like-sign-1",
+      "ruleId": "like-sign",
+      "problem": "5x-2x=21",
+      "lines": [
+        "(7*x) = 21",
+        "x=3"
+      ],
+      "candidates": [
+        "like-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "like-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "like-sign-2",
+      "ruleId": "like-sign",
+      "problem": "6x-3x=27",
+      "lines": [
+        "(9*x) = 27",
+        "x=3"
+      ],
+      "candidates": [
+        "like-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "like-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "like-sign-3",
+      "ruleId": "like-sign",
+      "problem": "7x-4x=33",
+      "lines": [
+        "(11*x) = 33",
+        "x=3"
+      ],
+      "candidates": [
+        "like-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "like-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "like-sign-4",
+      "ruleId": "like-sign",
+      "problem": "8x-5x=39",
+      "lines": [
+        "(13*x) = 39",
+        "x=3"
+      ],
+      "candidates": [
+        "like-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "like-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "like-sign-5",
+      "ruleId": "like-sign",
+      "problem": "9x-6x=45",
+      "lines": [
+        "(15*x) = 45",
+        "x=3"
+      ],
+      "candidates": [
+        "like-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "like-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    },
+    {
+      "id": "like-sign-6",
+      "ruleId": "like-sign",
+      "problem": "10x-7x=51",
+      "lines": [
+        "(17*x) = 51",
+        "x=3"
+      ],
+      "candidates": [
+        "like-sign"
+      ],
+      "initialUnique": true,
+      "retained": true,
+      "branch": [],
+      "final": [
+        "like-sign"
+      ],
+      "correct": true,
+      "unknown": false,
+      "wrongUnique": false
+    }
+  ],
+  "controls": [
+    {
+      "kind": "unknown",
+      "problem": "3x=15",
+      "lines": [
+        "x=101"
+      ],
+      "actual": "unknown"
+    },
+    {
+      "kind": "unknown",
+      "problem": "4x=20",
+      "lines": [
+        "x=102"
+      ],
+      "actual": "unknown"
+    },
+    {
+      "kind": "unknown",
+      "problem": "5x=25",
+      "lines": [
+        "x=103"
+      ],
+      "actual": "unknown"
+    },
+    {
+      "kind": "unknown",
+      "problem": "6x=30",
+      "lines": [
+        "x=104"
+      ],
+      "actual": "unknown"
+    },
+    {
+      "kind": "unknown",
+      "problem": "7x=35",
+      "lines": [
+        "x=105"
+      ],
+      "actual": "unknown"
+    },
+    {
+      "kind": "unknown",
+      "problem": "8x=40",
+      "lines": [
+        "x=106"
+      ],
+      "actual": "unknown"
+    },
+    {
+      "kind": "equivalent",
+      "problem": "3x+1=16",
+      "lines": [
+        "3x=15",
+        "x=5"
+      ],
+      "actual": "equivalent"
+    },
+    {
+      "kind": "equivalent",
+      "problem": "4x+2=22",
+      "lines": [
+        "4x=20",
+        "x=5"
+      ],
+      "actual": "equivalent"
+    },
+    {
+      "kind": "equivalent",
+      "problem": "5x+3=28",
+      "lines": [
+        "5x=25",
+        "x=5"
+      ],
+      "actual": "equivalent"
+    },
+    {
+      "kind": "equivalent",
+      "problem": "6x+4=34",
+      "lines": [
+        "6x=30",
+        "x=5"
+      ],
+      "actual": "equivalent"
+    },
+    {
+      "kind": "equivalent",
+      "problem": "7x+5=40",
+      "lines": [
+        "7x=35",
+        "x=5"
+      ],
+      "actual": "equivalent"
+    },
+    {
+      "kind": "equivalent",
+      "problem": "8x+6=46",
+      "lines": [
+        "8x=40",
+        "x=5"
+      ],
+      "actual": "equivalent"
+    }
+  ]
+}

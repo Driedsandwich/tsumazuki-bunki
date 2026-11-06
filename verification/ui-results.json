@@ -1,0 +1,64 @@
+{
+  "base": "http://127.0.0.1:5173",
+  "checks": 14,
+  "results": [
+    {
+      "name": "s1: sample → review → diagnosis → practice completion",
+      "passed": true
+    },
+    {
+      "name": "s2: sample → review → diagnosis → practice completion",
+      "passed": true
+    },
+    {
+      "name": "s3: sample → review → diagnosis → practice completion",
+      "passed": true
+    },
+    {
+      "name": "s4: sample → review → diagnosis → practice completion",
+      "passed": true
+    },
+    {
+      "name": "s5: sample → review → diagnosis → practice completion",
+      "passed": true
+    },
+    {
+      "name": "fresh typed equation",
+      "passed": true
+    },
+    {
+      "name": "unknown gives no invented cause",
+      "passed": true
+    },
+    {
+      "name": "manual correction recomputes outcome",
+      "passed": true
+    },
+    {
+      "name": "unreadable line requires correction; decimals exact",
+      "passed": true
+    },
+    {
+      "name": "arbitrary photo in mock explicitly refuses OCR",
+      "passed": true
+    },
+    {
+      "name": "reload clears student data; no browser persistent storage",
+      "passed": true
+    },
+    {
+      "name": "320 / 390 / 1280 px layouts do not overflow",
+      "passed": true
+    },
+    {
+      "name": "live response stub: low-confidence correction and no client retry",
+      "passed": true
+    },
+    {
+      "name": "live response stub: failure falls back through to conclusion",
+      "passed": true
+    }
+  ],
+  "browserErrors": [],
+  "realProviderTested": false
+}

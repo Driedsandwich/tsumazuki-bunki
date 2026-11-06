@@ -1,0 +1,21 @@
+
+> tsumazuki-branch@1.0.0 build
+> tsc --noEmit && vite build && npm run bundle:api
+
+vite v6.4.5 building for production...
+transforming...
+✓ 48 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.66 kB │ gzip:  0.46 kB
+dist/assets/index-CQzwCovv.css   24.20 kB │ gzip:  5.81 kB
+dist/assets/index-D66VYX8w.js   275.59 kB │ gzip: 86.45 kB
+✓ built in 1.13s
+
+> tsumazuki-branch@1.0.0 bundle:api
+> esbuild server/vercel-entry.ts --bundle --platform=node --format=esm --target=node22 --outfile=api/analyze.js
+
+
+  api/analyze.js  29.3kb
+
+⚡ Done in 5ms

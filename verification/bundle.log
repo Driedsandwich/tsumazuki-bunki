@@ -1,0 +1,5 @@
+
+> tsumazuki-branch@1.0.0 verify:bundle
+> node scripts/verify-bundle.mjs
+
+Bundled Node ESM function: health + fresh mock transcription + no-store PASS

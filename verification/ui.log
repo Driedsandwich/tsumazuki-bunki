@@ -1,0 +1,5 @@
+
+> tsumazuki-branch@1.0.0 verify:ui
+> tsx scripts/verify-ui.ts
+
+{"checks":14,"passed":14,"browserErrors":[]}

@@ -1,0 +1,16 @@
+
+> tsumazuki-branch@1.0.0 test
+> vitest run
+
+
+ RUN  v3.2.4 <作業機>
+
+ ✓ tests/math.test.ts (38 tests) 17ms
+ ✓ tests/provider.test.ts (14 tests) 182ms
+ ✓ tests/rules.test.ts (43 tests) 283ms
+
+ Test Files  3 passed (3)
+      Tests  95 passed (95)
+   Start at  11:17:47
+   Duration  933ms (transform 394ms, setup 0ms, collect 566ms, tests 482ms, environment 7ms, prepare 410ms)
+

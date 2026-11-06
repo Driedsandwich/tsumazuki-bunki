@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    { "id": "signed-numbers", "name": "正負の数の加減", "prerequisites": [] },
+    {
+      "id": "signed-products",
+      "name": "正負の数の乗除",
+      "prerequisites": ["signed-numbers"]
+    },
+    {
+      "id": "distribution",
+      "name": "文字式・分配法則",
+      "prerequisites": ["signed-products"]
+    },
+    {
+      "id": "like-terms",
+      "name": "文字式・同類項",
+      "prerequisites": ["signed-numbers", "distribution"]
+    },
+    {
+      "id": "equality",
+      "name": "等式の性質",
+      "prerequisites": ["signed-products", "like-terms"]
+    },
+    {
+      "id": "linear-equations",
+      "name": "一次方程式",
+      "prerequisites": ["equality"]
+    },
+    {
+      "id": "fraction-equations",
+      "name": "分数・小数を含む一次方程式",
+      "prerequisites": ["linear-equations", "distribution"]
+    }
+  ]
+}
