@@ -2,7 +2,7 @@
 
 生徒の誤答を式で再現し、原因の候補を見分ける一問を出す、個別指導の講師向けの Web アプリです。
 
-- 公開デモ：<https://x160-tsumazuki.vercel.app>（2026-11-06 時点で実 AI に接続した構成）
+- 公開デモ：<https://tsumazuki-bunki.vercel.app>（2026-11-06 時点で実 AI に接続した構成）
 - 東京AIハッカソン 2026 のために作りました。
 - AI の鍵（API キー）がなくても、手元では見本の応答（mock）で最後まで動きます。動かし方は下の節にあります。
 - ライセンス：MIT（[LICENSE](LICENSE)）。見本の SVG に使ったフォントは `public/samples/FONT-LICENSE.txt` の条件に従います。
